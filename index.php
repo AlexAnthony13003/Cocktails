@@ -1,3 +1,7 @@
+<?php
+include "Components/navbar.html";
+include "Commands/SQL.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +11,6 @@
     <title>Alex Cocktails</title>
 </head>
 <body>
-
-  <header>
-    <div class="container">
-      <h1>Alex <span>Cocktails</span></h1>
-      <nav>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Cocktails</a></li>
-          <li><a href="#">À propos</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
   <section class="hero">
     <div class="container">
       <h2>Découvrez notre sélection de cocktails uniques</h2>
